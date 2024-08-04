@@ -27,7 +27,7 @@ function alterarStatus(id) {
 
 document.addEventListener('DOMContentLoaded', function() {
     jogosAlugados = document.querySelectorAll('.dashboard__item__img--rented').length;
-    contarEExibirJogosAlugados();
+    contarJogosAlugados();
 });
 
 function contarJogosAlugados() {
